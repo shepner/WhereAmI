@@ -1,0 +1,328 @@
+<html>
+<head>
+  <title>Asyla Main Page</title>
+	<!--<link TYPE = "text/css" HREF = "support_files/asyla.css" REL = "stylesheet">-->
+  <link TYPE = "text/css" HREF = "support_files/MNP.css" REL = "stylesheet">
+</head>
+
+<body>
+  <div CLASS = "section_1">
+
+  <table CELLSPACING = "0" CELLPADDING = "0" CLASS = "table_2">
+
+    <tr>
+      <td VALIGN = "top" CLASS = "td_2">
+	<table WIDTH = "450" BORDER = "0" CELLSPACING = "0" CELLPADDING = "0" CLASS = "table_2">
+	  <tr>
+	    <td COLSPAN = "2" CLASS = "header_01">
+	      <h1>SEARCH THE WEB</h1>
+	    </td>
+	  </tr>
+
+	  <tr>
+	    <td COLSPAN = "2" CLASS = "header_02">
+	      <SPAN CLASS = "small_1"><A HREF = "http://www.google.com">Google</SPAN></A>
+	    </td>
+	  </TR>
+	  <TR>
+	    <TD>
+	      <FORM ACTION = "http://www.google.com/search" NAME = "f">
+
+		<INPUT TYPE = "hidden" NAME = "num" VALUE = "100">
+		<INPUT TYPE = "hidden" NAME = "hl" VALUE = "en">
+		<INPUT TYPE = "hidden" NAME = "btnG" VALUE = "Google+Search">
+		<INPUT TYPE = "hidden" NAME = "as_epq" VALUE = "">
+		<INPUT TYPE = "hidden" NAME = "as_oq" VALUE = "">
+		<INPUT TYPE = "hidden" NAME = "as_eq" VALUE = "">
+		<INPUT TYPE = "hidden" NAME = "lr" VALUE = "">
+		<INPUT TYPE = "hidden" NAME = "as_ft" VALUE = "i">
+		<INPUT TYPE = "hidden" NAME = "as_filetype" VALUE = "">
+
+		<INPUT TYPE = "hidden" NAME = "as_qdr" VALUE = "all">
+		<INPUT TYPE = "hidden" NAME = "as_nlo" VALUE = "">
+		<INPUT TYPE = "hidden" NAME = "as_nhi" VALUE = "">
+		<INPUT TYPE = "hidden" NAME = "as_occt" VALUE = "any">
+		<INPUT TYPE = "hidden" NAME = "as_dt" VALUE = "i">
+		<INPUT TYPE = "hidden" NAME = "as_sitesearch" VALUE = "">
+		<INPUT TYPE = "hidden" NAME = "as_rights" VALUE = "">
+		<INPUT TYPE = "hidden" NAME = "safe" VALUE = "images">
+		<INPUT MAXLENGTH = "256" SIZE = "30" NAME = "as_q" onFocus="this.value='';" VALUE = "Google Search" ONFOCUS ="do_select(this)">
+
+	      </FORM>
+	    </td>
+	    <td>
+	      <FORM ACTION = "http://www.google.com/maphp?hl=en&tab=wl&q=milwaukee,wi" NAME = "f">
+		<INPUT TYPE = "hidden" NAME = "hl" VALUE = "en">
+		<INPUT TYPE = "hidden" NAME = "tab" VALUE = "lw">
+		<INPUT MAXLENGTH = "256" SIZE = "30" NAME = "q" onFocus="this.value='';" VALUE = "Google Maps" ONFOCUS ="do_select(this)">
+	      </FORM>
+	    </TD>
+
+	  </TR>
+	  <TR>
+	    <TD COLSPAN = "2" CLASS = "header_02">
+	      <SPAN CLASS = "small_1">
+		<A HREF = "http://www.whois.net/">Whois</A> (USA/Europe)
+	      </SPAN>
+	    </TD>
+	  </TR>
+
+	  <TR>
+	    <TD>
+	      <FORM NAME = "thisform" METHOD = "post" ACTION = "http://ws.arin.net/cgi-bin/whois.pl">
+		<A HREF = "http://whois.arin.net">whois.arin.net (usa)</A>
+		<INPUT TYPE = "text" NAME = "queryinput" SIZE = "22" onFocus="this.value='';" VALUE = "192.168.1.1" ONFOCUS = "do_select(this)">
+		<INPUT TYPE = "submit" VALUE = "Go">
+	      </FORM>
+	    </TD>
+
+	    <TD>
+	      <FORM METHOD = "get" ACTION = "http://www.ripe.net/perl/whois" ENCTYPE = "application/x-www-form-urlencoded">
+		<A HREF = "http://www.ripe.net">www.ripe.net (europe)</A>
+		<INPUT TYPE = "text" NAME = "searchtext"  SIZE = "22" onFocus="this.value='';" VALUE = "129.61.16.46" ONFOCUS = "do_select(this)">
+		<INPUT TYPE = "submit" NAME = "do_search" VALUE = "Go">
+		<INPUT TYPE = "hidden" NAME = "form_type" VALUE = "simple">
+		<INPUT TYPE = "hidden" NAME = "full_query_string">
+	      </FORM>
+
+	    </TD>
+	  </TR>
+	</td>
+      </table>
+      <br>
+      <TABLE WIDTH = "450" BORDER = "0" CELLSPACING = "0" CELLPADDING = "0" CLASS = "table_2">
+	<TR>
+	  <TD COLSPAN = "2" CLASS = "header_01">
+	    <H1>Asyla.org Services</H1>
+
+	  </TD>
+	</TR>
+	<tr>
+	  <td width = "50%">
+	    <FORM ACTION = "https://www.asyla.org/mail/source/index.php" NAME = "f">
+	      <A HREF = "https://www.asyla.org/horde/imp">asyla webmail</A><br>
+	      <a href = "https://www.asyla.org/owl">OWL</a>
+	      <br>
+
+	    </FORM>
+	  </td>
+	    <td width = "50%">
+	      <a href = "https://www.asyla.org/g2">Photo Gallery</a>
+	      <br>
+	      <a href = "http://www.gigapan.org/viewProfile.php?userid=5527">Panoramas on Gigapan</a>
+	    </td>
+	  </tr>
+
+	</table>
+	<TD WIDTH = "516" VALIGN = "top" CLASS = "td_2">
+	  <TABLE WIDTH = "450" BORDER = "0" CELLSPACING = "0" CELLPADDING = "0" CLASS = "table_2">
+	    <TR>
+	      <TD COLSPAN = "2" CLASS = "header_01">
+		<H1>DAILY LINKS</H1>
+	      </TD>
+	    </TR>
+
+	    <TR>
+	      <TD COLSPAN = "2" CLASS = "header_02">
+		<SPAN CLASS = "small_1">Misc</SPAN>
+	      </TD>
+	    </TR>
+	    <tr>
+	      <TD width = "50%">
+		<A HREF = "http://www.snapstream.net/">Snapstream TV Listings</A>
+
+		<A HREF = "http://www.snapstream.net/buzz.aspx">(buzz)</A>
+	      </TD>
+	      <TD WIDTH = "50%"></A></TD>
+	    </tr>
+	    <tr>
+	      <TD width = "50%"><A HREF = "http://groups.yahoo.com/">Yahoo Groups</A></TD>
+	      <TD width = "50%">
+		<A HREF = "http://freebsd.org/">FreeBSD</A>
+
+		<A HREF = "http://freebsd.org/ports">(ports)</A>
+		<A HREF = "http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/">(handbook)</A>
+	      </TD>
+	    </tr>
+	    <tr>
+	      <TD width = "50%"></TD>
+	      <TD WIDTH = "50%"></TD>
+	    </tr>
+
+	    <TR>
+	      <TD COLSPAN = "2" CLASS = "header_02">
+	      <SPAN CLASS = "small_1">Car Stuff</SPAN>
+	    </TD>
+	  </TR>
+	  <tr>
+	    <TD WIDTH = "50%"><A HREF = "http://www.tdiclub.com/">TDI Club</A></TD>
+	    <TD width = "50%"><A HREF = "http://www.vwvortex.com/">VW Vortex</A></TD>
+
+	  </tr>
+	  <tr>
+	    <TD width = "50%"><A HREF = "http://www.mcscc.org/">Midwestern Council Sports Car Clubs</A></TD>
+	    <TD width = "50%"><A HREF = "http://www.cal-look.com/">Cal-Look</A></TD>
+	  </tr>
+	  <TR>
+	    <TD COLSPAN = "2" CLASS = "header_02">
+	      <SPAN CLASS = "small_1">VW Aircooled</SPAN>
+
+	    </TD>
+	  </TR>
+	  <tr>
+	    <TD width = "50%"><A HREF = "http://www.thesamba.com/">The Samba</A></TD>
+	    <TD width = "50%"><A HREF = "http://www.mavwc.com/">Milwaukee Area Volkswagen Club (MAVWC)</A></TD>
+	  </tr>
+	  <tr>
+	    <TD width = "50%"><A HREF = "http://www.shoptalkforums.com/">ShopTalkForums</A></TD>
+
+	    <TD width = "50%"><A HREF = "http://theaircooledroadracers.blogspot.com/">The Aircooled Road Racer's Club</A></TD>
+	  </tr>
+	  <tr>
+	    <TD WIDTH = "50%"><A HREF = "http://bobhooversblog.blogspot.com/">Bob Hoover</A></TD>
+	    <TD WIDTH = "50%"><A HREF = "http://www.germanlook.net/">GermanLook</A></TD>
+	  </tr>
+	  <TR>
+
+	    <TD COLSPAN = "2" CLASS = "header_02">
+	      <SPAN CLASS = "small_1">Ham Radio</SPAN>
+	    </TD>
+	  </TR>
+	  <TD width = "50%">
+	    <FORM ACTION = "http://www.findu.com/cgi-bin/near.cgi?call=kc9eku-10" NAME = "f">
+	      <A HREF = "http://www.findu.com/">FindU</A>
+	      <INPUT TYPE = "hidden" NAME = "last" VALUE = "24">
+
+	      <INPUT TYPE = "text" NAME = "call" SIZE = "24" onFocus="this.value='';" VALUE = "APRS Station" ONFOCUS = "do_select(this)">
+	    </FORM>
+	  </TD>
+	  <TD width = "50%">
+	    <FORM NAME = "thisform" METHOD = "post" ACTION = "http://www.qrz.com/callsign">
+	      <A HREF = "http://www.qrz.com/">QRZ</A>
+	      <INPUT maxlength = "256" size = "25" type = "text" onFocus="this.value='';" name="callsign" value="Callsign Lookup" ONFOCUS = "do_select(this)">
+	    </FORM>
+
+	  </TD>
+	  <TR>
+	    <TD width = "50%"><A HREF = "http://www.arrl.org/">ARRL</A></TD>
+	    <TD width = "50%"></TD>
+	  </TR>
+	  <TR>
+	    <TD COLSPAN = "2" CLASS = "header_02">
+	      <SPAN CLASS = "small_1">Humor</SPAN>
+
+	    </TD>
+	  </TR>
+	  <tr>
+	    <TD width = "50%"><A HREF = "http://www.userfriendly.org/">User Friendly</a></TD>
+	    <TD width = "50%"><A HREF = "http://www.xkcd.com/">xkcd</a></TD>
+	  </tr>
+	  <tr>
+	    <TD width = "50%"><A HREF = "http://www.dilbert.com/">Dilbert</a></TD>
+
+	    <TD width = "50%"></TD>
+	  </tr>
+	    <TR>
+	      <TD COLSPAN = "2" CLASS = "header_02">
+		<SPAN CLASS = "small_1">Recumbent Bike Stuff and Related</SPAN>
+	      </TD>
+	    </TR>
+	    <TR>
+
+	      <TD width = "50%"><A HREF = "http://www.greenspeed.com.au/">Greenspeed</A></TD>
+	      <TD width = "50%"><A HREF = "http://www.crazyguyonabike.com/">Crazy Guy on a Bike</A></TD>
+	    </TR>
+	    <tr>
+	      <TD width="50%"><a href="http://www.GMRBC.org/">Greater Milwaukee Recumbent Bike Club</a> <A HREF="http://groups.yahoo.com/group/GMRBC/">(GMRBC Yahoo! group)</a></TD>
+	      <TD width="50%"><a href="http://www.ihpva.org/">International Human Powered Vehicle Association</a></TD>
+
+	    </tr>
+	    <tr>
+	      <TD width = "50%"><A HREF = "http://www.soulbikes.com/gears/">HPV Drivetrain Analyzer</A></TD>
+	      <TD width = "50%">
+		<A HREF = "http://www.recumbents.com/">Recumbents.com</A>
+		<A HREF = "http://www.wisil.recumbents.com/">(WISIL)</A>
+	      </TD>
+
+	    </tr>
+    	    <tr>
+	      <TD width="50%"><a href="http://bentrideronline.com/">'BentRider Online</a></TD>
+	      <TD width="50%"><a href="http://www.thertr.com/forum">Recumbent Trike Rider forum</a></TD>
+	    </tr>
+    	    <tr>
+	      <TD width="50%"><a href="http://www.creamcitycycleclub.com//camping.htm">Cream City Cycle Club camping rides</a></TD>
+
+	      <TD width="50%"><a href="http://www.cptips.com/">Cycling Performance Tips</a></TD>
+	    </tr>
+	    <TR>
+	      <TD COLSPAN = "2" CLASS = "header_02">
+		<SPAN CLASS = "small_1">Weather</SPAN>
+	      </TD>
+	    </TR>
+	    <TR>
+
+	      <TD width = "50%">
+		<A HREF = "http://www.weather.com/weather/local/53189?lswe=53189">Milwaukee</A>
+		<A HREF = "http://www.weather.com/weather/map/53189?from=LAPmaps&name=index_large_animated&day=1">(animated)</A>
+		<A HREF = "http://www.google.com/search?hl=en&lr=&q=weather+milwaukee%2C+wi">(google)</A>
+	      </TD>
+	      <TD width = "50%">
+		<A HREF = "http://www.noaa.gov/">NOAA</A>
+
+		<A HREF = "http://forecast.weather.gov/MapClick.php?CityName=Milwaukee&state=WI&site=MKX&textField1=43.0633&textField2=-87.9666">(Milwaukee)</A>
+		<A HREF = "http://forecast.weather.gov/MapClick.php?CityName=Farmersville&state=OH&site=ILN&textField1=39.6787&textField2=-84.4271">(Dayton)</A>
+	      </TD>
+	    </TR>
+	  </TABLE>
+	</TD>
+      </TR>
+    </TABLE>
+
+  </DIV>
+
+<!-- start quote from http://dict.die.net/asylums/ -->
+<hr>  
+<p><small>Source: <i>Webster's Revised Unabridged Dictionary (1913)</i></small>
+
+<a name="1"></a>
+<pre><strong>Asylum</strong> \A*sy"lum\, n.; pl. E. <a href="http
+://dict.die.net/asylums/">Asylums</a>, L. Asyla. [L. asylum, Gr. ?
+, fr. ? exempt from spoliation, inviolable; 'a priv. + ? right of seizure.]
+   1. A sanctuary or place of refuge and protection, where
+      criminals and debtors found shelter, and from which they   
+      could not be forcibly taken without sacrilege.
+        
+            So sacred was the church to some, that it had the                  
+            right of an asylum or sanctuary.      --Ayliffe.
+
+   Note: The name was anciently given to temples, altars,
+         statues of the gods, and the like. In later times
+         Christian churches were regarded as asylums in the same
+         sense.    
+
+   2. Any place of retreat and security.
+
+            Earth has no other asylum for them than its own cold
+            bosom.                                --Southey.
+
+   3. An institution for the protection or relief of some class
+      of destitute, unfortunate, or afflicted persons; as, an
+      asylum for the aged, for the blind, or for the insane; a
+      lunatic asylum; an orphan asylum.</pre>
+			
+
+<!-- end quote from http://dict.die.net/asylums/ -->
+<hr>
+
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-3446815-1");
+			pageTracker._initData();
+			pageTracker._trackPageview();
+		</script>
+		
+  </BODY>
+</HTML>
